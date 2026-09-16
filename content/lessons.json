@@ -9,11 +9,8 @@
     {
       "id": "l2",
       "title": "Lesson 2｜静态图 + 流程/地图",
-      "summary": "静态图对比与流程图要点（预告）。",
-      "status": "coming",
-      "parts": [],
-      "exercises": [],
-      "tips": []
+      "summary": "静态图（饼/表/柱）结构与比较表达；流程/地图的顺序与被动表达；含练习。",
+      "status": "available"
     },
     {
       "id": "l3",
