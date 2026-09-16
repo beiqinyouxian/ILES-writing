@@ -1,0 +1,47 @@
+{
+  "lessons": [
+    {
+      "id": "l1",
+      "title": "Lesson 1｜考试概览 + 动态图（线/饼/表/柱）",
+      "summary": "了解写作考试与小作文动态图写法、常用词、五大趋势句式；练习改写填空。",
+      "status": "available"
+    },
+    {
+      "id": "l2",
+      "title": "Lesson 2｜静态图 + 流程/地图",
+      "summary": "静态图对比与流程图要点（预告）。",
+      "status": "coming",
+      "parts": [],
+      "exercises": [],
+      "tips": []
+    },
+    {
+      "id": "l3",
+      "title": "Lesson 3｜Task 2 结构 + 同意与否/利弊（3:7）",
+      "summary": "大作文基本结构与三七开策略（预告）。",
+      "status": "coming",
+      "parts": [],
+      "exercises": [],
+      "tips": []
+    },
+    {
+      "id": "l4",
+      "title": "Lesson 4｜双边讨论（5:5 平衡）",
+      "summary": "讨论双方观点的组织与表达（预告）。",
+      "status": "coming",
+      "parts": [],
+      "exercises": [],
+      "tips": []
+    },
+    {
+      "id": "l5",
+      "title": "Lesson 5｜报告类文章",
+      "summary": "报告型文章框架与语言（预告）。",
+      "status": "coming",
+      "parts": [],
+      "exercises": [],
+      "tips": []
+    }
+  ]
+}
+

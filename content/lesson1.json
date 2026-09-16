@@ -1,0 +1,157 @@
+{
+  "id": "l1",
+  "title": "Lesson 1｜考试概览 + 动态图（线/饼/表/柱）",
+  "summary": "Task 1 动态图核心：如何改写题干、分段逻辑、五大趋势句型、常用对比与概括词。配套改写填空练习与同屏句式提示。",
+  "status": "available",
+  "parts": [
+    {
+      "id": "p1",
+      "title": "考试基本情况（Task 1 / Task 2）",
+      "tags": ["overview", "exam"],
+      "keypoints": [
+        "写作 60 分钟：Task 1 建议 20 分钟（≥150 词，占 1/3），Task 2 建议 40 分钟（≥250 词，占 2/3）",
+        "评分四项：任务完成、连贯衔接、词汇多样、语法多样与准确",
+        "格式：齐头式/缩进式均可；机考注意拼写与段落",
+        "严禁抄题；不达标字数会扣分，超字数不直接加分"
+      ]
+    },
+    {
+      "id": "p2",
+      "title": "动态图类别与分段方法",
+      "tags": ["graph-dynamic"],
+      "keypoints": [
+        "类别：线形图、动态饼图、动态表格、动态柱图",
+        "常见分段：按趋势（升/降/持平/波动）、按时间段、按数值高/中/低、按对象、按类别特征",
+        "开头段：改写题干，用一般现在时；避免罗列过多年份/国家",
+        "总结段：突出极值/差异/总体趋势（不解释原因）"
+      ]
+    },
+    {
+      "id": "p3",
+      "title": "常用词与五大趋势句型（6.5 友好）",
+      "tags": ["trend", "patterns"],
+      "keypoints": [
+        "上升：increase, rise, grow; 下降：decrease, fall, decline; 持平：remain stable/steady; 波动：fluctuate",
+        "程度副词：slightly, steadily, significantly（避免 surge/soar/plummet 等过激词）",
+        "五大句型：横坐标作主语；纵坐标作主语；地点作主语；There be + 趋势名词；直接描述法（受欢迎度/使用量变化）"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "title": "动态线图改写填空（C9-Test4-Task1）",
+      "instruction": "根据上下文与提示，填写合适的单词或短语（目标 6.5 级别表达）。聚焦到空格会在右侧显示对应句式提示。",
+      "tags": ["graph-dynamic", "line", "rewrite"],
+      "blocks": [
+        {
+          "items": [
+            { "type": "text", "text": "开头段：" },
+            { "type": "text", "text": "The graph shows " },
+            { "type": "blank", "id": "b1", "answer": "energy consumption", "focusTag": "intro" },
+            { "type": "text", "text": " in " },
+            { "type": "blank", "id": "b2", "answer": "the US", "focusTag": "intro" },
+            { "type": "text", "text": " from 1980 to 2012, and projected consumption " },
+            { "type": "blank", "id": "b3", "answer": "to 2030", "focusTag": "intro" },
+            { "type": "text", "text": "." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "主体段 1：" },
+            { "type": "blank", "id": "b4", "answer": "Petrol and oil", "focusTag": "compare" },
+            { "type": "text", "text": " are the " },
+            { "type": "blank", "id": "b5", "answer": "dominant fuel sources", "focusTag": "compare" },
+            { "type": "text", "text": " through this period, with 35q units used in 1980, " },
+            { "type": "blank", "id": "b6", "answer": "rising to 42q", "focusTag": "trend" },
+            { "type": "text", "text": " in 2012. Despite some initial fluctuation, from 1995 there was " },
+            { "type": "blank", "id": "b7", "answer": "a steady increase", "focusTag": "trend" },
+            { "type": "text", "text": ". This is expected to continue, " },
+            { "type": "blank", "id": "b8", "answer": "reaching 47q", "focusTag": "forecast" },
+            { "type": "text", "text": " in 2030." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "主体段 2：" },
+            { "type": "text", "text": "Consumption of energy derived from natural gas and coal is " },
+            { "type": "blank", "id": "b9", "answer": "similar", "focusTag": "compare" },
+            { "type": "text", "text": " over the period. From 20q and 15q respectively in 1980, gas showed " },
+            { "type": "blank", "id": "b10", "answer": "an initial fall", "focusTag": "trend" },
+            { "type": "text", "text": " and coal a gradual increase, with the two fuels " },
+            { "type": "blank", "id": "b11", "answer": "equal", "focusTag": "compare" },
+            { "type": "text", "text": " between 1985 and 1990." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "总结段：" },
+            { "type": "text", "text": "Overall, the US will continue to rely on " },
+            { "type": "blank", "id": "b12", "answer": "fossil fuels", "focusTag": "overview" },
+            { "type": "text", "text": ", with sustainable and nuclear energy sources remaining relatively insignificant." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "title": "动态饼图改写填空（C8-Test2-Task1）",
+      "instruction": "根据上下文填写词语，注意对比与趋势用词应保持中等难度。",
+      "tags": ["graph-dynamic", "pie", "rewrite"],
+      "blocks": [
+        {
+          "items": [
+            { "type": "text", "text": "The charts show how much a UK school spent on different running costs in three years. In all three years, the greatest expenditure was on " },
+            { "type": "blank", "id": "p1", "answer": "staff salaries", "focusTag": "compare" },
+            { "type": "text", "text": ". Expenditure on resources such as books had increased to 20% by 1991 before " },
+            { "type": "blank", "id": "p2", "answer": "decreasing to only 9%", "focusTag": "trend" },
+            { "type": "text", "text": " by 2001, while furniture and equipment showed the opposite trend." }
+          ]
+        }
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "id": "t1",
+      "title": "改写题干（一般现在时）",
+      "content": "The line graph shows how ... changed in ... from ... to ... / The table illustrates the percentage of ... in ... （避免使用过去时；可用同义替换 + 词性转换）",
+      "tags": ["intro", "graph-dynamic", "general"]
+    },
+    {
+      "id": "t2",
+      "title": "趋势词（6.5 友好）",
+      "content": "上升：increase, rise, grow；下降：decrease, fall, decline；持平：remain stable/steady；波动：fluctuate。",
+      "tags": ["trend", "graph-dynamic"],
+      "examples": [
+        "The number rose steadily to 40%.",
+        "It remained stable at about 20%."
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "五大趋势句型（选其一）",
+      "content": "1) The period from A to B saw a slight increase in ...；2) The number/percentage of ... increased ...；3) Sweden experienced a steady rise ...；4) There was a moderate decrease in ...；5) The popularity of ... increased.",
+      "tags": ["trend", "patterns", "graph-dynamic"]
+    },
+    {
+      "id": "t4",
+      "title": "对比与相等",
+      "content": "A was higher/lower than B；A was equal/similar to B；use 'respectively' 做一一对应。",
+      "tags": ["compare", "graph-dynamic"]
+    },
+    {
+      "id": "t5",
+      "title": "总结段写法（不解释原因）",
+      "content": "Overall, ... focus on extremes, differences and overall trends. 不加入个人观点，不分析原因。",
+      "tags": ["overview", "graph-dynamic"]
+    },
+    {
+      "id": "t6",
+      "title": "未来预测表达",
+      "content": "be likely/expected/projected to ...；According to the projections, ...",
+      "tags": ["forecast", "graph-dynamic"]
+    }
+  ]
+}
+
