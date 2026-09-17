@@ -1,0 +1,250 @@
+{
+  "id": "l2",
+  "title": "Lesson 2｜静态图 + 流程/地图",
+  "summary": "Task 1 静态图（饼/表/柱）与非数据类（流程/地图）：结构、比较与比例表达、顺序与被动；含改写填空练习与同步提示。",
+  "status": "available",
+  "parts": [
+    {
+      "id": "s1",
+      "title": "静态图：定义与结构",
+      "tags": ["static", "structure"],
+      "keypoints": [
+        "定义：无时间变化，比较数值/比例/排名（同类对象对比）",
+        "常见类型：静态饼图 / 静态表格 / 静态柱图（单/双/多柱）",
+        "结构推荐：开头改写题干 → 主体分段（由大到小、按列/行、按关系 A>B=A<B）→ 总结（极值/差额/总体）",
+        "时态：一般现在时；避免个人观点与原因解释"
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "静态图：常用比较与比例表达（6.5 友好）",
+      "tags": ["static", "compare", "proportion"],
+      "keypoints": [
+        "比较：higher/lower than；similar to；the same as；different from",
+        "比例：account for / make up / take up / constitute ...%",
+        "排序：rank first/second；followed by；Next comes ...",
+        "倍数：A is twice as high as B；double/triple（适度使用）"
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "流程图/地图：结构与语言",
+      "tags": ["process", "map", "sequence", "passive"],
+      "keypoints": [
+        "流程图：被动语态为主；明确步骤与连接词（first/next/then/afterwards/finally）",
+        "地图：位置与变化（to the north of；be built/constructed；be converted into；be removed/demolished）",
+        "时态：一般现在时描述图示；如涉及对比前后，可用过去/现在进行说明",
+        "总结：可概括阶段数或总体流程功能"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex-static-pie",
+      "title": "静态饼图改写填空（能源使用 vs 温室气体）",
+      "instruction": "根据示例，用简洁 6.5 级表达完成改写；注意比例词与排序用语。",
+      "tags": ["static", "pie", "proportion", "compare", "rewrite"],
+      "blocks": [
+        {
+          "items": [
+            { "type": "text", "text": "The two pie charts illustrate the amount of energy consumed in an average Australian household, and the quantities of greenhouse gas emissions resulting from the same sources." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "Overall, water heating " },
+            { "type": "blank", "id": "sp1", "answer": "constitutes a large part", "focusTag": "proportion" },
+            { "type": "text", "text": " in both energy use and greenhouse gas emissions." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "In the first chart, heating " },
+            { "type": "blank", "id": "sp2", "answer": "takes up", "focusTag": "proportion" },
+            { "type": "text", "text": " 42% of total energy, and water heating " },
+            { "type": "blank", "id": "sp3", "answer": "ranks second", "focusTag": "compare" },
+            { "type": "text", "text": " at 30%, " },
+            { "type": "blank", "id": "sp4", "answer": "followed by", "focusTag": "compare" },
+            { "type": "text", "text": " other appliances (15%), refrigeration (7%), lighting (4%) and cooling (2%)." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "From the second chart, the greatest emitters are water heating and other appliances with 32% and 28% " },
+            { "type": "blank", "id": "sp5", "answer": "respectively", "focusTag": "compare" },
+            { "type": "text", "text": ", while cooling is the smallest at 3%." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-static-table",
+      "title": "静态表格改写填空（地铁系统）",
+      "instruction": "用一般现在时概括表格信息，注意开头改写与排序表达。",
+      "tags": ["static", "table", "rewrite", "compare"],
+      "blocks": [
+        {
+          "items": [
+            { "type": "text", "text": "The table " },
+            { "type": "blank", "id": "st1", "answer": "illustrates", "focusTag": "intro" },
+            { "type": "text", "text": " the data regarding subway systems in six cities, including opening date, kilometers of route and annual passengers." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "In terms of the opening date, London is the most " },
+            { "type": "blank", "id": "st2", "answer": "time-honored", "focusTag": "compare" },
+            { "type": "text", "text": " (1863), while Los Angeles is the " },
+            { "type": "blank", "id": "st3", "answer": "newest", "focusTag": "compare" },
+            { "type": "text", "text": " (2001)." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "As for route length, London " },
+            { "type": "blank", "id": "st4", "answer": "ranks first", "focusTag": "compare" },
+            { "type": "text", "text": " with 394 km, roughly " },
+            { "type": "blank", "id": "st5", "answer": "twice as long as", "focusTag": "compare" },
+            { "type": "text", "text": " Paris (199 km), whereas Kyoto is the " },
+            { "type": "blank", "id": "st6", "answer": "shortest", "focusTag": "compare" },
+            { "type": "text", "text": " (11 km)." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-static-bar",
+      "title": "静态柱图改写填空（电力生产与消费）",
+      "instruction": "突出极值与总体特征，避免罗列全部国家。",
+      "tags": ["static", "bar", "compare", "rewrite"],
+      "blocks": [
+        {
+          "items": [
+            { "type": "text", "text": "The bar chart illustrates how much electricity was produced and consumed by the top ten countries in 2014." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "Overall, China and the USA were the " },
+            { "type": "blank", "id": "sb1", "answer": "biggest", "focusTag": "compare" },
+            { "type": "text", "text": " producers and users. With the exception of Germany, all countries " },
+            { "type": "blank", "id": "sb2", "answer": "produced more electricity than they used", "focusTag": "compare" },
+            { "type": "text", "text": "." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-process",
+      "title": "流程图改写填空（地热发电）",
+      "instruction": "使用被动语态与顺序连接词，描述关键阶段（不解释原因）。",
+      "tags": ["process", "sequence", "passive", "rewrite"],
+      "blocks": [
+        {
+          "items": [
+            { "type": "text", "text": "The process diagram illustrates how electricity is produced by using geothermal energy. The whole procedure " },
+            { "type": "blank", "id": "pr1", "answer": "is divided into", "focusTag": "sequence" },
+            { "type": "text", "text": " five main stages." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "First, cold water " },
+            { "type": "blank", "id": "pr2", "answer": "is stored", "focusTag": "passive" },
+            { "type": "text", "text": " above the ground and then " },
+            { "type": "blank", "id": "pr3", "answer": "is pumped down", "focusTag": "passive" },
+            { "type": "text", "text": " to the injection well." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "Next, the water " },
+            { "type": "blank", "id": "pr4", "answer": "flows into", "focusTag": "sequence" },
+            { "type": "text", "text": " the geothermal zone where hot rocks " },
+            { "type": "blank", "id": "pr5", "answer": "are used to heat", "focusTag": "passive" },
+            { "type": "text", "text": " it." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "Afterwards, hot water " },
+            { "type": "blank", "id": "pr6", "answer": "is pumped up", "focusTag": "passive" },
+            { "type": "text", "text": " to the surface and " },
+            { "type": "blank", "id": "pr7", "answer": "is converted into steam", "focusTag": "passive" },
+            { "type": "text", "text": " in a condenser." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "Finally, the steam powers the turbine " },
+            { "type": "blank", "id": "pr8", "answer": "to generate electricity", "focusTag": "sequence" },
+            { "type": "text", "text": ", which is ready to be transmitted." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-map",
+      "title": "地图改写填空（变化表达）",
+      "instruction": "描述地点相对方位与设施变化，使用 be built/converted/removed 等 6.5 级表达。",
+      "tags": ["map", "compare", "sequence", "rewrite"],
+      "blocks": [
+        {
+          "items": [
+            { "type": "text", "text": "Overall, the town center became more accessible " },
+            { "type": "blank", "id": "mp1", "answer": "to the north of", "focusTag": "map" },
+            { "type": "text", "text": " the river after a bridge " },
+            { "type": "blank", "id": "mp2", "answer": "was constructed", "focusTag": "passive" },
+            { "type": "text", "text": "." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "In addition, the old factory " },
+            { "type": "blank", "id": "mp3", "answer": "was removed", "focusTag": "passive" },
+            { "type": "text", "text": " and the area " },
+            { "type": "blank", "id": "mp4", "answer": "was converted into", "focusTag": "passive" },
+            { "type": "text", "text": " a public park." }
+          ]
+        }
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "id": "t2-1",
+      "title": "静态图开头改写（一般现在时）",
+      "content": "The bar chart/table/pie chart illustrates/shows ... in ...（年份/国家）. 避免过去时与逐条罗列。",
+      "tags": ["intro", "static", "general"]
+    },
+    {
+      "id": "t2-2",
+      "title": "比例与排序（6.5 友好）",
+      "content": "account for / make up / take up / constitute；rank first/second；followed by；Next comes ...",
+      "tags": ["proportion", "compare", "static"],
+      "examples": [
+        "Heating accounts for 42% of total energy.",
+        "Water heating ranks second at 30%."
+      ]
+    },
+    {
+      "id": "t2-3",
+      "title": "对比与相等",
+      "content": "A is higher/lower than B；A is similar to/equal to B；use 'respectively' 一一对应。",
+      "tags": ["compare", "static"]
+    },
+    {
+      "id": "t2-4",
+      "title": "流程图：顺序 + 被动",
+      "content": "First/Next/Then/Afterwards/Finally；be stored / be pumped / be heated / be converted。句子简洁，突出动作顺序。",
+      "tags": ["process", "sequence", "passive"]
+    },
+    {
+      "id": "t2-5",
+      "title": "地图：位置与变化",
+      "content": "方位：to the north/south/east/west of；变化：be built/constructed；be converted into；be removed/demolished。",
+      "tags": ["map", "compare"]
+    }
+  ]
+}
+
