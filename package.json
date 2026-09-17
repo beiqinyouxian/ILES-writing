@@ -31,9 +31,11 @@
     "asar": true,
     "win": {
       "target": [
-        "nsis"
+        "nsis",
+        "portable"
       ],
-      "artifactName": "${productName}-${version}-Setup.${ext}"
+      "artifactName": "${productName}-${version}-${arch}.${ext}",
+      "signAndEditExecutable": false
     }
   },
   "dependencies": {
