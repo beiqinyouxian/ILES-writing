@@ -3,10 +3,11 @@
 面向 6.5 分的离线 IELTS Writing 学习与练习工具。现已提供：
 - Lesson 1（考试概览 + 动态图）
 - Lesson 2（静态图 + 流程/地图）
+- Lesson 3（Task 2 结构 + 三七开：同意与否 / 利弊）
 
 功能包含：
 - 课程概览（要点提炼，不是 PDF 墙）
-- 改写填空练习（Lesson 1 动态图；Lesson 2 静态图 + 流程/地图）
+- 改写填空练习（Lesson 1 动态图；Lesson 2 静态图 + 流程/地图；Lesson 3 Task 2 结构 + 三七开）
 - 聚焦同步提示面板（当前空格或段落类型 → 对应句式与词汇提示）
 
 数据内容来自本地 JSON（`content/`），可离线使用。
@@ -50,7 +51,8 @@ package.json      # 脚本与打包配置（electron-builder）
 ## 四、内容与范围
 - Lesson 1：考试概览、动态图写法、常用词、五大趋势句型、改写填空
 - Lesson 2：静态图结构与比较/比例表达；流程/地图顺序与被动表达；2–3 道改写填空
-- Lesson 3-5：导航可用（预告），可按需在 `content/` 追加
+- Lesson 3：Task 2 类型与结构；三七开用于同意与否/利弊；2–3 道改写/翻译式练习；提示面板按 intro/body/conclusion/agree/advantage 等联动
+- Lesson 4-5：导航可用（预告），可按需在 `content/` 追加
 
 ## 五、二次扩展（可选建议）
 - 在 `content/lesson1.json`、`content/lesson2.json` 中追加更多改写/翻译练习块
