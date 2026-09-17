@@ -2,6 +2,7 @@ import React, { useMemo, useState } from 'react';
 import lessons from '../../content/lessons.json';
 import lesson1 from '../../content/lesson1.json';
 import lesson2 from '../../content/lesson2.json';
+import lesson3 from '../../content/lesson3.json';
 import type {
   AppLesson,
   PracticeExercise,
@@ -14,7 +15,7 @@ import { Overview } from './Overview';
 const lessonMap: Record<string, AppLesson> = {
   l1: lesson1 as unknown as AppLesson,
   l2: lesson2 as unknown as AppLesson,
-  l3: lessons.lessons.find(l => l.id === 'l3') as AppLesson,
+  l3: lesson3 as unknown as AppLesson,
   l4: lessons.lessons.find(l => l.id === 'l4') as AppLesson,
   l5: lessons.lessons.find(l => l.id === 'l5') as AppLesson
 };

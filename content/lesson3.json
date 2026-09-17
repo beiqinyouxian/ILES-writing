@@ -1,0 +1,200 @@
+{
+  "id": "l3",
+  "title": "Lesson 3｜Task 2 结构 + 三七开（同意/利弊）",
+  "summary": "大作文常见类型与文章结构；三七开策略用于同意与否、利弊对比。提供 6.5 级模板与改写/翻译式练习。",
+  "status": "available",
+  "parts": [
+    {
+      "id": "t2-structure",
+      "title": "Task 2 常见类型与通用结构",
+      "tags": ["structure", "intro", "body", "conclusion"],
+      "keypoints": [
+        "常见题型：同意与否（agree/disagree）；利弊对比（advantages/disadvantages）；双边讨论；报告类等",
+        "建议结构：引言（改写题干+立场）→ 主体一（理由1+解释+例子）→ 主体二（理由2+解释+例子/让步）→ 结论（重申立场+总括）",
+        "句长与词汇：力求清晰可读，避免过度复杂与生僻词；连接自然",
+        "评分要点：任务回应到位；结构清晰；词句多样但准确；衔接自然"
+      ]
+    },
+    {
+      "id": "t2-37",
+      "title": "三七开策略（同意/利弊）",
+      "tags": ["agree", "disagree", "advantage", "disadvantage"],
+      "keypoints": [
+        "同意与否：一方为主（70%），另一方为辅（30% 的让步/反面观点）",
+        "利弊对比：可选“利为主、弊为辅”或“弊为主、利为辅”，保持态度明确",
+        "段内组织：主题句→解释→例子/结果→小结；次要一方点到为止",
+        "结论：不引入新观点，简短重申即可"
+      ]
+    },
+    {
+      "id": "t2-phrases",
+      "title": "6.5 级常用模板与用语",
+      "tags": ["templates"],
+      "keypoints": [
+        "引言：In my view/From my perspective, I (agree/disagree) that ...；While there are (benefits/drawbacks), I believe ...",
+        "主体理由：One main reason is that ...；This is because ...；For example, ...；As a result, ...",
+        "让步/反方：However/Nevertheless, it is also true that ...；It can be argued that ...",
+        "结论：In conclusion, although ... , I still believe that ...；To sum up, ..."
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex-agree-disagree",
+      "title": "同意与否：引言+主体骨架（三七开）",
+      "instruction": "根据提示，完成引言与主体的关键短语（6.5 级）。空格聚焦时显示对应模板提示。",
+      "tags": ["agree", "intro", "thesis", "body-reason", "body-example", "counter", "conclusion"],
+      "blocks": [
+        {
+          "items": [
+            { "type": "text", "text": "Intro: " },
+            { "type": "blank", "id": "a1", "answer": "In my view", "focusTag": "intro" },
+            { "type": "text", "text": ", I " },
+            { "type": "blank", "id": "a2", "answer": "agree", "focusTag": "intro" },
+            { "type": "text", "text": " that online learning can effectively support higher education." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "Thesis: While there are certain drawbacks, I " },
+            { "type": "blank", "id": "a3", "answer": "believe the benefits outweigh the downsides", "focusTag": "thesis" },
+            { "type": "text", "text": "." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "Body 1 (70% 主导观点) - Topic: " },
+            { "type": "blank", "id": "a4", "answer": "One main reason is that", "focusTag": "body-reason" },
+            { "type": "text", "text": " students can access high-quality courses anywhere." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "Explain/Example: " },
+            { "type": "blank", "id": "a5", "answer": "For example", "focusTag": "body-example" },
+            { "type": "text", "text": ", recorded lectures allow flexible review after class." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "Body 2 (30% 让步) - Counter: " },
+            { "type": "blank", "id": "a6", "answer": "However", "focusTag": "counter" },
+            { "type": "text", "text": ", some students may lack self-discipline; " },
+            { "type": "blank", "id": "a7", "answer": "nevertheless", "focusTag": "counter" },
+            { "type": "text", "text": ", simple schedules and reminders can help." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "Conclusion: " },
+            { "type": "blank", "id": "a8", "answer": "In conclusion", "focusTag": "conclusion" },
+            { "type": "text", "text": ", although there are downsides, I still believe that online learning is a valuable part of modern education." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-advantages",
+      "title": "利大于弊：段内展开（三七开：利为主）",
+      "instruction": "补全连接与解释用语，保持逻辑清晰、句式简洁。",
+      "tags": ["advantage", "disadvantage", "body-reason", "body-example", "conclusion"],
+      "blocks": [
+        {
+          "items": [
+            { "type": "text", "text": "Body 1（主）： " },
+            { "type": "blank", "id": "b1", "answer": "To begin with", "focusTag": "body-reason" },
+            { "type": "text", "text": ", public transport reduces traffic and pollution. " },
+            { "type": "blank", "id": "b2", "answer": "This is because", "focusTag": "body-reason" },
+            { "type": "text", "text": " fewer cars are used by individuals." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "Example: " },
+            { "type": "blank", "id": "b3", "answer": "For example", "focusTag": "body-example" },
+            { "type": "text", "text": ", in many cities, bus lanes speed up commuting and save fuel." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "Body 2（辅）： " },
+            { "type": "blank", "id": "b4", "answer": "However", "focusTag": "counter" },
+            { "type": "text", "text": ", public transport can be crowded at peak hours; " },
+            { "type": "blank", "id": "b5", "answer": "nevertheless", "focusTag": "counter" },
+            { "type": "text", "text": ", better timetables can ease the problem." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "Conclusion: " },
+            { "type": "blank", "id": "b6", "answer": "To sum up", "focusTag": "conclusion" },
+            { "type": "text", "text": ", the benefits of public transport clearly outweigh the drawbacks." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-translation",
+      "title": "翻译式短句（引言/主体/结论常用块）",
+      "instruction": "将常用中文表达转为自然的 6.5 级英语短句（填关键短语）。",
+      "tags": ["intro", "body-reason", "body-example", "conclusion"],
+      "blocks": [
+        {
+          "items": [
+            { "type": "text", "text": "（我认为/在我看来，）" },
+            { "type": "blank", "id": "c1", "answer": "From my perspective", "focusTag": "intro" },
+            { "type": "text", "text": ", schools should teach financial skills." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "（一个主要原因是，）" },
+            { "type": "blank", "id": "c2", "answer": "One main reason is that", "focusTag": "body-reason" },
+            { "type": "text", "text": " basic budgeting helps teenagers plan spending." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "（例如，）" },
+            { "type": "blank", "id": "c3", "answer": "For example", "focusTag": "body-example" },
+            { "type": "text", "text": ", they can compare prices and avoid impulse buying." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "（总之，）" },
+            { "type": "blank", "id": "c4", "answer": "In conclusion", "focusTag": "conclusion" },
+            { "type": "text", "text": ", financial education is necessary for students." }
+          ]
+        }
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "id": "t3-1",
+      "title": "引言（改写题干 + 明确立场）",
+      "content": "In my view/From my perspective, I (agree/disagree) that ...；避免重复题干原词，可做同义替换或结构转换。",
+      "tags": ["intro", "structure", "general"]
+    },
+    {
+      "id": "t3-2",
+      "title": "论点展开（主题句→解释→例子→小结）",
+      "content": "One main reason is that ...；This is because ...；For example, ...；As a result, ...；段落聚焦一个主旨，避免面面俱到。",
+      "tags": ["body-reason", "body-example"]
+    },
+    {
+      "id": "t3-3",
+      "title": "三七开：主次分明 + 让步简洁",
+      "content": "主观点约 70% 篇幅；让步 30% 点到为止：However/Nevertheless, it is also true that ...；然后迅速回到主线。",
+      "tags": ["agree", "disagree", "advantage", "disadvantage", "counter"]
+    },
+    {
+      "id": "t3-4",
+      "title": "结论（不引入新观点）",
+      "content": "In conclusion/To sum up, ...；重申立场与主旨，不展开新论点或数据。",
+      "tags": ["conclusion"]
+    }
+  ]
+}
+
