@@ -1,0 +1,156 @@
+{
+  "id": "l4",
+  "title": "Lesson 4｜双边讨论（五五平衡）",
+  "summary": "Discuss both views and give your opinion：五五平衡结构，清晰连接，6.5 级模板与练习。",
+  "status": "available",
+  "parts": [
+    {
+      "id": "bv-structure",
+      "title": "五五平衡结构概览",
+      "tags": ["both-views", "structure"],
+      "keypoints": [
+        "引言：改写题干 + 提出双方观点 + 明确自己的总体立场",
+        "主体一：一方观点（On the one hand ...）→ 解释 → 例子/结果 → 小结（客观评价）",
+        "主体二：另一方观点（On the other hand ...）→ 解释 → 例子/结果 → 小结（客观评价）",
+        "结论/观点段：重申个人立场与理由（不重复罗列），不引入新论点"
+      ]
+    },
+    {
+      "id": "bv-templates",
+      "title": "6.5 级常用模板/连接",
+      "tags": ["templates", "both-views", "opinion", "balanced", "conclusion"],
+      "keypoints": [
+        "引言：Some people believe/argue that ...; Others claim/suggest that ...; In my opinion, ...",
+        "转承：On the one hand / On the other hand；While/Whereas；However/Nevertheless",
+        "论证：One reason is that ...；This is because ...；For example, ...；As a result, ...",
+        "结论：In conclusion, while ... , I still believe that ..."
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex-intro-opinion",
+      "title": "引言：改写题干 + 双边引出 + 个人观点",
+      "instruction": "完成常用表达，保持中性客观与清晰立场（6.5 级）。",
+      "tags": ["intro", "both-views", "opinion"],
+      "blocks": [
+        {
+          "items": [
+            { "type": "text", "text": "Intro: " },
+            { "type": "blank", "id": "i1", "answer": "Some people argue that", "focusTag": "intro" },
+            { "type": "text", "text": " university education should focus on job skills, " },
+            { "type": "blank", "id": "i2", "answer": "while others believe that", "focusTag": "intro" },
+            { "type": "text", "text": " it should provide broader knowledge." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "Opinion: " },
+            { "type": "blank", "id": "i3", "answer": "In my opinion", "focusTag": "opinion" },
+            { "type": "text", "text": ", both aims are important, but universities should mainly ensure well-rounded learning." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-body-view-a",
+      "title": "主体段：观点 A（五五之一）",
+      "instruction": "用 On the one hand 引出；完成主题句、解释、例子与小结词。",
+      "tags": ["both-views", "balanced", "body-a"],
+      "blocks": [
+        {
+          "items": [
+            { "type": "text", "text": "On the one hand, " },
+            { "type": "blank", "id": "a1", "answer": "one reason is that", "focusTag": "balanced" },
+            { "type": "text", "text": " targeted skills can help graduates find jobs more easily." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "Explain: " },
+            { "type": "blank", "id": "a2", "answer": "This is because", "focusTag": "balanced" },
+            { "type": "text", "text": " employers often look for specific abilities." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "Example: " },
+            { "type": "blank", "id": "a3", "answer": "For example", "focusTag": "balanced" },
+            { "type": "text", "text": ", practical training can shorten the time needed for new hires." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-body-view-b-opinion",
+      "title": "主体段：观点 B（五五之二）+ 自己的观点回扣",
+      "instruction": "用 On the other hand 引出；完成解释与例子；句末回扣个人观点。",
+      "tags": ["both-views", "balanced", "body-b", "opinion"],
+      "blocks": [
+        {
+          "items": [
+            { "type": "text", "text": "On the other hand, " },
+            { "type": "blank", "id": "b1", "answer": "it can be argued that", "focusTag": "balanced" },
+            { "type": "text", "text": " broader knowledge helps students think critically and adapt to changes." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "Explain: " },
+            { "type": "blank", "id": "b2", "answer": "For instance", "focusTag": "balanced" },
+            { "type": "text", "text": ", courses in communication and problem-solving benefit different careers." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "Opinion tie-back: " },
+            { "type": "blank", "id": "b3", "answer": "Therefore", "focusTag": "opinion" },
+            { "type": "text", "text": ", a balanced curriculum is more helpful in the long run." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-conclusion",
+      "title": "结论：平衡总结 + 明确立场",
+      "instruction": "不引入新观点；用简洁 6.5 级表达重申立场。",
+      "tags": ["conclusion", "opinion"],
+      "blocks": [
+        {
+          "items": [
+            { "type": "text", "text": "Conclusion: " },
+            { "type": "blank", "id": "c1", "answer": "In conclusion", "focusTag": "conclusion" },
+            { "type": "text", "text": ", while job skills are necessary, I still believe universities should also build wider abilities." }
+          ]
+        }
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "id": "t4-1",
+      "title": "双边引出（引言）",
+      "content": "Some people argue that ...; Others believe that ...; In my opinion, ...（避免使用过于强烈或生僻的词）",
+      "tags": ["intro", "both-views", "opinion"]
+    },
+    {
+      "id": "t4-2",
+      "title": "五五平衡的连接",
+      "content": "On the one hand / On the other hand；While/Whereas；However/Nevertheless（注意语气中性、逻辑平衡）",
+      "tags": ["both-views", "balanced"]
+    },
+    {
+      "id": "t4-3",
+      "title": "段内展开（主题→解释→例子→小结）",
+      "content": "One reason is that ...；This is because ...；For example/For instance ...；As a result ...（句式简洁，条理清楚）",
+      "tags": ["balanced"]
+    },
+    {
+      "id": "t4-4",
+      "title": "结论（不引入新观点）",
+      "content": "In conclusion/To sum up, ...；重申立场，避免加入新证据或细节。",
+      "tags": ["conclusion"]
+    }
+  ]
+}
+

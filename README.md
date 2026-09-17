@@ -4,6 +4,7 @@
 - Lesson 1（考试概览 + 动态图）
 - Lesson 2（静态图 + 流程/地图）
 - Lesson 3（Task 2 结构 + 三七开：同意与否 / 利弊）
+- Lesson 4（双边讨论：五五平衡 + 个人观点）
 
 功能包含：
 - 课程概览（要点提炼，不是 PDF 墙）
@@ -52,7 +53,8 @@ package.json      # 脚本与打包配置（electron-builder）
 - Lesson 1：考试概览、动态图写法、常用词、五大趋势句型、改写填空
 - Lesson 2：静态图结构与比较/比例表达；流程/地图顺序与被动表达；2–3 道改写填空
 - Lesson 3：Task 2 类型与结构；三七开用于同意与否/利弊；2–3 道改写/翻译式练习；提示面板按 intro/body/conclusion/agree/advantage 等联动
-- Lesson 4-5：导航可用（预告），可按需在 `content/` 追加
+- Lesson 4：双边讨论（Discuss both views and give your opinion）；五五平衡结构与练习；提示面板按 both-views/opinion/balanced/conclusion 等联动
+- Lesson 5：导航可用（预告），可按需在 `content/` 追加
 
 ## 五、二次扩展（可选建议）
 - 在 `content/lesson1.json`、`content/lesson2.json` 中追加更多改写/翻译练习块
