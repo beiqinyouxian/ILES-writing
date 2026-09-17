@@ -5,10 +5,11 @@
 - Lesson 2（静态图 + 流程/地图）
 - Lesson 3（Task 2 结构 + 三七开：同意与否 / 利弊）
 - Lesson 4（双边讨论：五五平衡 + 个人观点）
+- Lesson 5（报告类：原因-影响-解决）
 
 功能包含：
 - 课程概览（要点提炼，不是 PDF 墙）
-- 改写填空练习（Lesson 1 动态图；Lesson 2 静态图 + 流程/地图；Lesson 3 Task 2 结构 + 三七开）
+- 改写填空练习（L1 动态图；L2 静态图 + 流程/地图；L3 Task 2 结构 + 三七开；L4 双边讨论；L5 报告类 原因-影响-解决）
 - 聚焦同步提示面板（当前空格或段落类型 → 对应句式与词汇提示）
 
 数据内容来自本地 JSON（`content/`），可离线使用。
@@ -54,10 +55,10 @@ package.json      # 脚本与打包配置（electron-builder）
 - Lesson 2：静态图结构与比较/比例表达；流程/地图顺序与被动表达；2–3 道改写填空
 - Lesson 3：Task 2 类型与结构；三七开用于同意与否/利弊；2–3 道改写/翻译式练习；提示面板按 intro/body/conclusion/agree/advantage 等联动
 - Lesson 4：双边讨论（Discuss both views and give your opinion）；五五平衡结构与练习；提示面板按 both-views/opinion/balanced/conclusion 等联动
-- Lesson 5：导航可用（预告），可按需在 `content/` 追加
+- Lesson 5：报告类（Report/Problem-Cause-Effect-Solution）；中立结构与 6.5 模板；提示面板按 cause/effect/solution/report-intro/report-conclusion 等联动
 
 ## 五、二次扩展（可选建议）
-- 在 `content/lesson1.json`、`content/lesson2.json` 中追加更多改写/翻译练习块
+- 在 `content/lesson1.json`、`content/lesson2.json`、`content/lesson3.json`、`content/lesson4.json`、`content/lesson5.json` 中追加更多改写/翻译练习块
 - 为每个空格配置更细的 `focusTag`，丰富提示面板
 - 记录练习进度到本地（`localStorage`）
 
