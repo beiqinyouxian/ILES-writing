@@ -3,6 +3,7 @@ import lessons from '../../content/lessons.json';
 import lesson1 from '../../content/lesson1.json';
 import lesson2 from '../../content/lesson2.json';
 import lesson3 from '../../content/lesson3.json';
+import lesson4 from '../../content/lesson4.json';
 import type {
   AppLesson,
   PracticeExercise,
@@ -16,7 +17,7 @@ const lessonMap: Record<string, AppLesson> = {
   l1: lesson1 as unknown as AppLesson,
   l2: lesson2 as unknown as AppLesson,
   l3: lesson3 as unknown as AppLesson,
-  l4: lessons.lessons.find(l => l.id === 'l4') as AppLesson,
+  l4: lesson4 as unknown as AppLesson,
   l5: lessons.lessons.find(l => l.id === 'l5') as AppLesson
 };
 
