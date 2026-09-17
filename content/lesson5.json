@@ -1,0 +1,157 @@
+{
+  "id": "l5",
+  "title": "Lesson 5｜报告类文章（原因-影响-解决）",
+  "summary": "Report/Problem-Cause-Effect-Solution 风格的 Task 2：中立客观、结构清晰、6.5 级模板与练习。",
+  "status": "available",
+  "parts": [
+    {
+      "id": "report-structure",
+      "title": "报告类结构与语气",
+      "tags": ["report", "structure", "intro", "conclusion"],
+      "keypoints": [
+        "语气：中立客观、基于现象描述；尽量避免主观强烈态度词",
+        "常见结构：引言（改写题干+指出问题）→ 原因（1-2 个）→ 影响（1-2 个）→ 解决方案（1-2 个）→ 结论（简要总结）",
+        "段内：主题句→解释→例子/数据化描述（如适用）→小结；连接自然",
+        "常用连接：As a result / Consequently（结果）；Therefore（因此）；One possible solution is ...（解决）"
+      ]
+    },
+    {
+      "id": "report-phrases",
+      "title": "6.5 级常用模板与用语",
+      "tags": ["templates", "cause", "effect", "solution"],
+      "keypoints": [
+        "引言：The issue of ... has raised public concern.; This essay reports the possible causes and effects, and suggests solutions.",
+        "原因：One major cause is that ...; This is mainly because ...; Another contributing factor is ...",
+        "影响：As a result/Consequently, ...; This may lead to ...; It can cause ...",
+        "解决：One possible solution is to ...; Authorities/Schools/Companies can ...; It would be helpful to ..."
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex-intro-outline",
+      "title": "引言：中立概述 + 结构预告",
+      "instruction": "用客观表达引出问题，并概括将讨论的块（原因/影响/解决）。",
+      "tags": ["report", "intro"],
+      "blocks": [
+        {
+          "items": [
+            { "type": "text", "text": "Intro: " },
+            { "type": "blank", "id": "r1", "answer": "The issue of", "focusTag": "report-intro" },
+            { "type": "text", "text": " youth unemployment has raised public concern. This essay " },
+            { "type": "blank", "id": "r2", "answer": "reports the possible causes and effects", "focusTag": "report-intro" },
+            { "type": "text", "text": ", and suggests practical solutions." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-causes-effects",
+      "title": "原因与影响：块内展开",
+      "instruction": "填写原因与影响的连接/模板用语，保持中性、逻辑清晰。",
+      "tags": ["cause", "effect"],
+      "blocks": [
+        {
+          "items": [
+            { "type": "text", "text": "Cause 1: " },
+            { "type": "blank", "id": "r3", "answer": "One major cause is that", "focusTag": "cause" },
+            { "type": "text", "text": " some graduates lack practical skills required by employers." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "Cause 2: " },
+            { "type": "blank", "id": "r4", "answer": "Another contributing factor is", "focusTag": "cause" },
+            { "type": "text", "text": " the mismatch between regional industries and training programs." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "Effect: " },
+            { "type": "blank", "id": "r5", "answer": "As a result", "focusTag": "effect" },
+            { "type": "text", "text": ", young people may accept temporary or low-paid jobs, " },
+            { "type": "blank", "id": "r6", "answer": "which can lead to", "focusTag": "effect" },
+            { "type": "text", "text": " unstable income and reduced motivation." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-solutions",
+      "title": "解决方案：可行与具体",
+      "instruction": "补全解决方案的表达，让建议具体可行（主体/责任方清晰）。",
+      "tags": ["solution"],
+      "blocks": [
+        {
+          "items": [
+            { "type": "text", "text": "Solution 1: " },
+            { "type": "blank", "id": "r7", "answer": "One possible solution is to", "focusTag": "solution" },
+            { "type": "text", "text": " build partnerships between universities and companies for internship programs." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "Solution 2: " },
+            { "type": "blank", "id": "r8", "answer": "Authorities can", "focusTag": "solution" },
+            { "type": "text", "text": " provide incentives for firms that offer training to young employees." }
+          ]
+        },
+        {
+          "items": [
+            { "type": "text", "text": "Expected result: " },
+            { "type": "blank", "id": "r9", "answer": "Therefore", "focusTag": "solution" },
+            { "type": "text", "text": ", graduates are more likely to gain experience and secure stable positions." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-conclusion",
+      "title": "结论：简洁总结（不引入新观点）",
+      "instruction": "用简短中立语言收束全文，呼应前文块。",
+      "tags": ["report", "conclusion"],
+      "blocks": [
+        {
+          "items": [
+            { "type": "text", "text": "Conclusion: " },
+            { "type": "blank", "id": "r10", "answer": "In conclusion", "focusTag": "report-conclusion" },
+            { "type": "text", "text": ", the rise in youth unemployment can be explained by skill gaps and regional mismatch; practical training and policy incentives may help ease the problem." }
+          ]
+        }
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "id": "t5-1",
+      "title": "报告类引言（中立客观）",
+      "content": "The issue of ... has raised public concern.; This essay reports the possible causes and effects, and suggests solutions.",
+      "tags": ["report-intro", "report", "intro"]
+    },
+    {
+      "id": "t5-2",
+      "title": "原因块（6.5 级）",
+      "content": "One major cause is that ...; This is mainly because ...; Another contributing factor is ...（避免过激词）",
+      "tags": ["cause"]
+    },
+    {
+      "id": "t5-3",
+      "title": "影响块（清晰结果）",
+      "content": "As a result/Consequently, ...; This may lead to ...; It can cause ...（注意因果清晰，不要跳步）",
+      "tags": ["effect"]
+    },
+    {
+      "id": "t5-4",
+      "title": "解决块（可行建议）",
+      "content": "One possible solution is to ...; Authorities/Schools/Companies can ...; Therefore/Thus ...（说明预期效果）",
+      "tags": ["solution"]
+    },
+    {
+      "id": "t5-5",
+      "title": "结论（不引入新信息）",
+      "content": "In conclusion/To sum up, ...；回扣原因/影响/解决，不新增论点或数据。",
+      "tags": ["report-conclusion", "conclusion"]
+    }
+  ]
+}
+
